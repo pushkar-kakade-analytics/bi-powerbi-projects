@@ -14,9 +14,10 @@ The reporting approach is project-centric, enabling detailed monitoring of busin
 ## Fact_Financials
 
 This is the primary transactional table containing financial and operational KPI data.
+The table stores month-end financial snapshots at the project level for MIS and executive reporting purposes.
 
 ### Columns
-- Date
+- Month_End_Date
 - Project_ID
 - Revenue_Actual
 - Revenue_AOP
