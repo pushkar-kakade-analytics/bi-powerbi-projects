@@ -20,11 +20,14 @@ This is the primary transactional table containing financial and operational KPI
 - Project_ID
 - Revenue_Actual
 - Revenue_AOP
-- Expense
+- Project_Cost
 - Profit
 - Billing
 - Collection
-- Cashflow
+- Cash_Inflow
+- Cash_Outflow
+- Accounts_Receivable
+- Accounts_Payable
 
 ### Purpose
 The fact table stores measurable business metrics used for:
@@ -33,6 +36,8 @@ The fact table stores measurable business metrics used for:
 - Variance analysis
 - Cashflow tracking
 - Project profitability analysis
+- AR/AP monitoring
+- Working capital tracking
 
 ---
 
@@ -123,6 +128,8 @@ This data model supports:
 - Region-wise reporting
 - SBG/SBU/BU hierarchy analysis
 - Cashflow monitoring
+- AR/AP analysis
+- Collection tracking
 - Executive-level KPI reporting
 
 ---
